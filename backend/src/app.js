@@ -5,7 +5,6 @@ import authRoutes from "./routes/authRoutes.js";
 import preferenceRoutes from "./routes/preferenceRoutes.js";
 import newsRoutes from "./routes/newsRoutes.js";
 import cookieParser from "cookie-parser";
-
 import connectDB from "./config/db.js";
 
 dotenv.config();
